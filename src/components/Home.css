@@ -1,0 +1,68 @@
+.home-section {
+  background-color: #9c7b7b;
+  color: white;
+  min-height: 100vh;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+}
+.coinBaseCard {
+  background-color:#8A865D;
+  color: black;
+  width: 35rem;
+  min-height: 22rem;
+  margin-left: 300px;
+  margin-top: 15%;
+  border: 1px solid black
+}
+
+.coinbaseCardBody {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.binanceCard {
+  background-color: #8A865D;
+  color: black;
+  width: 35rem;
+  min-height: 22rem;
+  margin-right: 300px;
+  margin-top: 15%;
+  border: 1px solid black
+}
+
+.binanceCardBody {
+  display: flex;
+  flex-direction: column; /* defined the main axis */
+  justify-content: center; /* y-axis */
+  align-items: center; /* x-axis */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.recommendationCard {
+  margin-top: 70px;
+  width: 50rem;
+  min-height: 20rem;
+  background-color:#8A865D;
+  color:black;
+  border: 1px solid black
+}
+
+.recommendationCardHeader {
+  border-bottom: 1px solid black
+}
+.recommendationCardBody {
+  font-size: 30px;  
+}
